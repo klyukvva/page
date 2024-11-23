@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubblegum Sans">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<title>Universe</title>
+<style>
+body {margin:0;}
+.navbar { 
+ overflow: hidden;
+ background-color: black;
+ position: fixed;
+ top: 0;
+ width: 100%; 
+}
+
+.navbar a { 
+ float: left;
+ color: #9370DB;
+ text-align: center;
+ padding: 18px 10px;
+ text-decoration: none;
+ font-family: "Bubblegum Sans", sans-serif;
+ font-size: 21px;
+}
+
+.navbar a:hover {
+ transform: scale(1.05);
+ background: #9370DB;
+ color: black;
+ border-radius: 5px;
+}
+
+.navbar b {
+ margin-left: 200px;
+ margin-right: 500px;
+ float: left; 
+ color: #9370DB;
+ text-align: center;
+ padding: 14px 14px;
+ text-decoration: none;
+ font-family: "Bubblegum Sans", sans-serif;
+ font-size: 28px;
+}
+
+
+.topnav-left {
+ float: right;
+ 
+}
+
+.main {
+ display: block;
+ background-color: #006666	;
+ padding: 16px;
+ margin-top: 0px;
+ height: 3000px; 
+}
+
+#earth_image{
+display: block;
+position: absolute; 
+top: 85%;
+left: 80%;
+transform: translate(-50%, -50%); 
+-webkit-filter: drop-shadow(2px 7px 10px #4682B4); 
+filter: drop-shadow(2px 7px 10px #4682B4); 
+}
+
+h1 {
+    color: black;
+}
+
+h2 {   
+	display: flex;
+	width:60%;	
+}
+
+p {
+    color: black;	
+	display: flex;
+	width:60%;
+	background:rgba(204,204,204,0.5);
+	padding:20px;	
+	border-radius: 15px;
+}
+
+.banner {
+ display: flex;
+ position: relative;
+ width: 100%;
+ height: 500px;
+ background: url('img/vsel.jfif') no-repeat center center;
+ background-size: cover;
+}
+
+
+.gr { 
+ display: grid; 
+ grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+ justify-content: center;
+}
+
+.dec{
+background-color:#CCC;
+border:#999 thin solid;
+padding:20px;
+margin:30px;
+border-radius: 15px;
+}
+
+.cont{
+ display: flex; 
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ width: 100%;  
+ background-size: cover;
+ background-color: rgba(204, 204, 204,0.5)/*rgba(147, 112, 219,0.5)*/;
+ border-radius: 10px;
+}
+
+.cont1{
+text-align: center;
+background: -webkit-linear-gradient(80deg,#000000 42%,#8257c7 65%);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.text{
+background: -webkit-linear-gradient(80deg,#000000 0%,#8257c7 35%);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.kris{
+background: -webkit-linear-gradient(80deg,#000000 0%,#8257c7 45%);
+color: #006666;
+background-clip: text;
+-webkit-text-stroke: 6px transparent;
+}
+
+.seti ul{ 
+list-style: none; 
+font-size:30px;
+justify-content: center;
+}
+
+.seti li{
+display: inline-flex;
+margin: 20px 20px;
+padding: 40px 55px;
+justify-content: center;
+align-items: center;
+}
+
+.seti a{
+position: absolute;  
+color: #000000;
+transition: .5s;
+}
+
+.seti a:hover {
+background:#5f4391;
+color:rgba(204, 204, 204,1);
+border-radius: 5px;
+transform: scale(1.2);
+}
+
+.search{
+align-items: center;
+position: relative;
+display: flex;
+background: #CCC;
+border-radius: 40px;
+height: 40px;
+text-align: center;
+margin:11px;
+margin-right: 10px; 
+}
+
+.searchbtn{
+color: #9370DB;
+float:right;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+text-decoration: none;
+position: relative;
+right: 0px; 
+text-align: center;
+}
+
+.search:hover > .searchtxt
+{
+width: 200px;
+padding: 5px;
+}
+
+
+.searchtxt{
+border: none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+color: black;
+transition: 0.4s;
+line-height: 20px;
+width: 0px;
+}
+
+</style>
+</head>
+<body>
+	
+	<div id="earth_image">
+	<img src="img/bvv.jpg" width=100% height=auto>
+	</div>
+	<div class="banner"></div>
+	<div class="navbar">
+		<b href="#universe">ВСЕЛЕННАЯ</b>
+		
+		<div class="topnav-left">
+		
+			<a href="#history">История</a>
+			<a href="#news">Новости</a>
+			<a href="#contact">Контакты</a>
+			<a href="#home">Главная</a>
+			<div class="search">
+			<input class="searchtxt" type="text" name="" placeholder="Введите для поиска">
+			<a class="searchbtn" href="#search"><i class="fa-solid fa-magnifying-glass" ></i></a>
+			</div>
+ </div>			
+ </div>
+ 
+
+<div class="main">
+	<div class="text">
+	<h1>История</h1>
+	</div>
+	<div class="kris">
+	<h2>Краткая история появления вселенной</h2>
+	</div>	
+	<p>Согласно преобладающей сегодня научной модели Вселенной, известной как Большой взрыв , Вселенная начала расширяться в так называемое время Планка из чрезвычайно горячей и плотной точки, в которой была сосредоточена вся материя и энергия наблюдаемой Вселенной. Со времён Планка Вселенная расширилась до своей нынешней формы после очень короткого времени (менее 10 -32 секунд) продолжающейся космической инфляции. Несколько независимых экспериментальных измерений подтвердили эту теоретическую инфляцию, а также теорию Большого взрыва. Недавние наблюдения показывают, что скорость расширения Вселенной увеличивается из-за тёмной энергии (энергии вакуума), которая была впервые получена в 1933 году швейцарско-американским астрономом.Фриц Цвикки : большая часть материи во Вселенной находится в форме, которая не может быть обнаружена современными приборами, и поэтому не включена в современные модели Вселенной, как в случае с тёмной материей. Неточности текущих космических наблюдений не позволяют нам предсказать окончательную судьбу Вселенной. Современная интерпретация астрономических наблюдений показывает, что возраст Вселенной составляет 13,799 ± 0,021 миллиарда лет, а диаметр наблюдаемой Вселенной составляет не менее 93 миллиардов световых лет или 8,80 10 26 метров. Согласно общей теории относительности , пространство может расширяться со скоростью, превышающей скорость света, и поэтому мы можем наблюдать только небольшую часть Вселенной из-за ограниченной скорости света. Поскольку мы не можем наблюдать пространство на расстоянии, превышающем то, что свет (или любое другое электромагнитное излучение) может пролететь от Большого взрыва, неясно, является ли размер Вселенной конечным или бесконечным.</p>
+  
+ <div class="text">
+ <h1>Новости во вселенной</h1>
+ </div>
+ 
+ <div class="gr">
+	<div class="dec">	
+	<h3>Две галактики образуют сложную линзу: главное открытие астрономии</h3>
+	<img src="img/nov1.webp" width=100% height=auto>
+	</div>
+	
+	<div class="dec">	
+	<h3>Телескоп Джеймс Уэбб наблюдает самый первый зигзаг Эйнштейна</h3>
+	<img src="img/nov2.webp" width=100% height=auto>
+	</div>
+	
+	<div class="dec">	
+	<h3>Большое Магелланово Облако могло пережить жестокое столкновение с Млечным Путем</h3>
+    <img src="img/nov3.webp" width=100% height=auto>
+	</div> 
+ </div>
+ 
+ <div class="cont1">
+ <h1>Контакты</h1>
+ 
+ </div>
+ 
+ <div class="cont">
+ <div class="gr">
+ <div class="seti">	
+	<ul>
+		<li><a href="https://t.me/k_klyukva" target="_blank"><i class="fab fa-telegram"></i></a></li>
+		<li><a href="https://www.instagram.com/__.vikuha.___/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+		<li><a href="https://vk.com/k_klyukva" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
+		<li><a href="https://github.com/klyukvva" target="_blank"><i class="fab fa-github-square"></i></a></li>
+	</ul>
+ </div>
+ </div>
+ </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
